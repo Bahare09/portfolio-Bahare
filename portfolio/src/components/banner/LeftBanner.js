@@ -26,7 +26,9 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide"></p>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+          blob blob blob
+        </p>
       </div>
       {/* Media */}
       <Media />
