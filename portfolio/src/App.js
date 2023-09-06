@@ -1,7 +1,9 @@
+import React from "react";
+import Banner from "./components/banner/Banner";
 function App() {
   return (
     <div className="App">
-      <h1>portfolio</h1>
+      <Banner />
     </div>
   );
 }
