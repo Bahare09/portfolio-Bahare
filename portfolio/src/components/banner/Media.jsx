@@ -1,9 +1,13 @@
 import React from "react";
 import { FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiExpress,
+  SiNodedotjs,
+  SiPostgresql,
+} from "react-icons/si";
 
 const Media = () => {
-  // Define your LinkedIn and GitHub URLs
   const linkedinUrl =
     "https://www.linkedin.com/in/bahare-bahreinian-002843246/";
   const githubUrl = "https://github.com/Bahare09";
@@ -13,7 +17,6 @@ const Media = () => {
       <div>
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          {/* Create a link to your LinkedIn profile */}
           <a
             href={linkedinUrl}
             target="_blank"
@@ -22,7 +25,6 @@ const Media = () => {
           >
             <FaLinkedinIn />
           </a>
-          {/* Create a link to your GitHub profile */}
           <a
             href={githubUrl}
             target="_blank"
@@ -42,13 +44,17 @@ const Media = () => {
             <FaReact />
           </span>
           <span className="bannerIcon">
-            <SiNextdotjs />
+            <SiNodedotjs />
+          </span>
+          <span className="bannerIcon">
+            <SiPostgresql />
+          </span>
+
+          <span className="bannerIcon">
+            <SiExpress />
           </span>
           <span className="bannerIcon">
             <SiTailwindcss />
-          </span>
-          <span className="bannerIcon">
-            <SiFigma />
           </span>
         </div>
       </div>
