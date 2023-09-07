@@ -17,8 +17,8 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Bahare Bahreinian</h3>
         <p className="text-lg font-normal text-gray-400">Software Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          Feel free to reach out for any inquiries or collaboration
+          opportunities.
         </p>
 
         <p className="text-base text-gray-400 flex items-center gap-2">
