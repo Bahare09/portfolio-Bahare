@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./components/banner/Banner";
-// import Contact from "./components/contact/Contact";
+import Contact from "./components/contact/Contact";
 // import Features from "./components/features/Features";
 // import Footer from "./components/footer/Footer";
 // import FooterBottom from "./components/footer/FooterBottom";
@@ -15,10 +15,11 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Projects />
+        <Contact />
         {/* <Features />
        
         <Resume />
-         <Contact />
+        
         <Footer />
         <FooterBottom /> */}
       </div>
