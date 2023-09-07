@@ -23,6 +23,20 @@ const Projects = () => {
           githubLink="https://github.com/Bahare09/ldn9-fp-wordwise"
           webLink="https://starter-kit-1fqo.onrender.com/"
         />
+        <ProjectsCard
+          title="Rock Paper Scissors"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          src={projectTwo}
+          githubLink="https://github.com/Bahare09/team-game-rock-paper-scissors"
+          webLink="https://rock-paper-scissors-team.netlify.app/"
+        />
+        <ProjectsCard
+          title="Video Recommendation"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          src={projectThree}
+          githubLink="https://github.com/Bahare09/Full-Stack-Project-Assessment"
+          webLink="https://video-recommandation-4.onrender.com/"
+        />
       </div>
     </section>
   );
