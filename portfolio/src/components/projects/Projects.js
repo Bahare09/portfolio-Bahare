@@ -18,7 +18,10 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="WordWise"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          des="-Developed a full-stack web application using React, Node.js, and PostgreSQL.
+-Integrated OpenAI API for precise phrase corrections and alternative suggestions.
+-Demonstrated strong problem-solving skills and attention to detail.
+-Successfully deployed the application for real-world testing and feedback.Final Project "
           src={projectOne}
           githubLink="https://github.com/Bahare09/ldn9-fp-wordwise"
           webLink="https://starter-kit-1fqo.onrender.com/"
