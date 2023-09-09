@@ -12,6 +12,13 @@ const Media = () => {
     "https://www.linkedin.com/in/bahare-bahreinian-002843246/";
   const githubUrl = "https://github.com/Bahare09";
 
+  // Add URLs for your skills and languages
+  const reactUrl = "https://reactjs.org/";
+  const nodeUrl = "https://nodejs.org/";
+  const postgresUrl = "https://www.postgresql.org/";
+  const expressUrl = "https://expressjs.com/";
+  const tailwindUrl = "https://tailwindcss.com/";
+
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
       <div>
@@ -40,22 +47,47 @@ const Media = () => {
           BEST SKILL ON
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          {/* Add links to your skills and languages */}
+          <a
+            href={reactUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <FaReact />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href={nodeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <SiNodedotjs />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href={postgresUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <SiPostgresql />
-          </span>
-
-          <span className="bannerIcon">
+          </a>
+          <a
+            href={expressUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <SiExpress />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href={tailwindUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <SiTailwindcss />
-          </span>
+          </a>
         </div>
       </div>
     </div>
