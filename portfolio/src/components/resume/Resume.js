@@ -6,7 +6,7 @@ const Resume = () => {
   const handleCVButtonClick = () => {
     // Handle what happens when the CV button is clicked
     window.open(
-      "https://drive.google.com/file/d/1oppDxewLKmHTvPQfgEPZsnGEFpOWAqAq/view?usp=sharing",
+      "https://drive.google.com/file/d/1TZhlZEegVS5DAes9mdX8Z6MVQV2gBfCx/view?usp=sharing",
       "_blank",
       "noopener noreferrer"
     );
