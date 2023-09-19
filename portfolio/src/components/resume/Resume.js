@@ -1,10 +1,9 @@
 import React from "react";
-import { FaFilePdf } from "react-icons/fa"; // Import the PDF icon from react-icons/fa
+import { FaFilePdf } from "react-icons/fa";
 import Title from "../layouts/Title";
 
 const Resume = () => {
   const handleCVButtonClick = () => {
-    // Handle what happens when the CV button is clicked
     window.open(
       "https://drive.google.com/file/d/1TZhlZEegVS5DAes9mdX8Z6MVQV2gBfCx/view?usp=sharing",
       "_blank",
