@@ -31,7 +31,7 @@ const Resume = () => {
           <button
             className="text-white bg-designColor hover:bg-opacity-80 rounded-full py-2 px-4 transition duration-300 ease-in-out cursor-pointer flex items-center"
             onClick={handleCVButtonClick}
-            style={{ marginTop: "150px", marginLeft: "570px" }}
+            style={{ marginTop: "151px", marginLeft: "570px" }}
           >
             <FaFilePdf className="mr-2" /> View CV
           </button>
