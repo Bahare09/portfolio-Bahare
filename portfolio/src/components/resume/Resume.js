@@ -27,7 +27,7 @@ const Resume = () => {
           approach is rooted in effective communication and collaboration, as I
           believe that teamwork enhances the impact of web experiences. I'm
           excited about the endless possibilities in web development and look
-          forward to creating solutions that inspire and empower.{" "}
+          forward to creating solutions that inspire and empower .{" "}
           <button
             className="text-white bg-designColor hover:bg-opacity-80 rounded-full py-2 px-4 transition duration-300 ease-in-out cursor-pointer flex items-center"
             onClick={handleCVButtonClick}
