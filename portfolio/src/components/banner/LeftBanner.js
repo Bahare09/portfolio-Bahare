@@ -28,8 +28,8 @@ const LeftBanner = () => {
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           A passionate Full Stack Software Developer 🚀 having an experience of
-          building Web and Mobile applications with JavaScript / Reactjs /
-          Nodejs and some other cool libraries and frameworks.
+          building Web applications with JavaScript / Reactjs / Nodejs and some
+          other cool libraries and frameworks.
         </p>
       </div>
       {/* Media */}
