@@ -21,6 +21,7 @@ const Navbar = () => {
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              style={{ fontWeight: "bold" }}
               key={_id}
             >
               <Link
