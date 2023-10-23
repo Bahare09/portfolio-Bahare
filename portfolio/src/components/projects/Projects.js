@@ -25,7 +25,7 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Rock Paper Scissors"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          des="This is a team-work approach for Rock-Paper-Scissors Online Multiplayer Game implemented using React.js in Front-end and Node.js in Back-end. The main challenge was to enable instant communication between 2 players without any delays. Therefore, Socket.io library is used to enable this feature."
           src={projectTwo}
           githubLink="https://github.com/Bahare09/team-game-rock-paper-scissors"
           webLink="https://rock-paper-scissors-team.netlify.app/"
