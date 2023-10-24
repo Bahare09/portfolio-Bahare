@@ -5,7 +5,7 @@ import Title from "../layouts/Title";
 const Resume = () => {
   const handleCVButtonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1Sy3Y5-z_GnnSqdpz4lrN3sYsSuYDOotk/view?usp=sharing",
+      "https://drive.google.com/file/d/1d24Le3FC2Un_nBkENpPwD2Zs_TKHB0hd/view?usp=sharing",
       "_blank",
       "noopener noreferrer"
     );
