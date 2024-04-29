@@ -34,6 +34,13 @@ const Projects = () => {
           githubLink="https://github.com/Bahare09/Full-Stack-Project-Assessment"
           webLink="https://video-recommandation-4.onrender.com/"
         />
+       <ProjectsCard
+          title="ApplySmart"
+          des=" A personalised CV and cover letter creation solution, overseeing the development process and spearheading prompt engineering for seamless integration with the OpenAI API. Employing technologies including React, Express, and PostgreSQL, the project delivered efficient full-stack functionality"
+          src={projectfour}
+          githubLink="https://github.com/Bahare09/ApplySmart"
+          webLink="https://applysmartc.onrender.com/"
+        />
       </div>
     </section>
   );
